@@ -1,3 +1,11 @@
 # 本地启动脚本
 launch_docker.sh
 
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
