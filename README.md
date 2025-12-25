@@ -111,9 +111,9 @@ multi_head_attention_core.py  ← 公共实现
 ┌─────────────────────────────────────────────────────────────┐
 │                       Transformer                           │
 │                                                             │
-│  源序列 ──→ [Embedding + PE] ──→ Encoder ──┐               │
-│                                            ↓               │
-│  目标序列 ──→ [Embedding + PE] ──→ Decoder ──→ Output      │
+│  源序列  ──→ [Embedding + PE] ──→ Encoder ──┐                 │
+│                                            ↓                │
+│  目标序列 ──→ [Embedding + PE] ──→ Decoder ──→ Output        │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
